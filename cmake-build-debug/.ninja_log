@@ -1,0 +1,11 @@
+# ninja log v5
+1	637	6719899802941314	CMakeFiles/leetcode.dir/main.cpp.obj	8e9bca4429495bbf
+639	794	6719899804534912	leetcode.exe	bd85b61ec9244ae5
+2	591	6719899911636151	CMakeFiles/leetcode.dir/main.cpp.obj	8e9bca4429495bbf
+591	749	6719899913036568	leetcode.exe	bd85b61ec9244ae5
+2	595	6719900169150251	CMakeFiles/leetcode.dir/main.cpp.obj	8e9bca4429495bbf
+596	777	6719900170600685	leetcode.exe	bd85b61ec9244ae5
+3	818	6719905455027493	CMakeFiles/leetcode.dir/main.cpp.obj	8e9bca4429495bbf
+819	1011	6719905456757454	leetcode.exe	bd85b61ec9244ae5
+3	615	6719906256230637	CMakeFiles/leetcode.dir/main.cpp.obj	8e9bca4429495bbf
+615	769	6719906257670642	leetcode.exe	bd85b61ec9244ae5

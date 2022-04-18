@@ -1,0 +1,40 @@
+class Solution {
+public:
+    ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
+        ListNode *temp1 = l1, *temp2 = l2;
+        ListNode *result= new ListNode();
+        ListNode *temp = result;
+        int jinwei = 0;
+        while(temp1 && temp2){
+            int x = temp1->val+temp2->val+jinwei;
+            ListNode *temp3 = new ListNode(x%10);
+            jinwei = x / 10;
+            temp->next = temp3;
+            temp = temp3;
+            temp1 = temp1->next;
+            temp2 = temp2->next;
+        }
+        while(temp1){
+            int x = temp1->val+jinwei;
+            ListNode *temp3 = new ListNode(x%10);
+            jinwei = x / 10;
+            temp->next = temp3;
+            temp = temp3;
+            temp1 = temp1->next;
+        }
+        while(temp2){
+            int x = temp2->val+jinwei;
+            ListNode *temp3 = new ListNode(x%10);
+            jinwei = x / 10;
+            temp->next = temp3;
+            temp = temp3;
+            temp2 = temp2->next;
+        }
+        if(jinwei !=0){
+            ListNode *temp3 = new ListNode(jinwei);
+            jinwei=0;
+            temp->next=temp3;
+        }
+        return result->next;
+    }
+};
