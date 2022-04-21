@@ -6,14 +6,13 @@ using namespace std;
 
 class Solution {
 public:
-    int reverse(int x) {
+    bool isMatch(string s, string p) {
 
     }
 };
 
-
 int main() {
 
-    cout << Solution().reverse( 123);
+//    cout << Solution().isPalindrome(121);
 }
 
