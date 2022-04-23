@@ -6,13 +6,12 @@ using namespace std;
 
 class Solution {
 public:
-    bool isMatch(string s, string p) {
+    vector<vector<int>> threeSum(vector<int>& nums) {
 
     }
 };
 
 int main() {
 
-//    cout << Solution().isPalindrome(121);
 }
 
