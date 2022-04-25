@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第3天第一次提交（7、8、9题）">
+    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第3天第一次提交（10-14题）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
@@ -32,6 +32,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +91,9 @@
       <workItem from="1650591072333" duration="2372000" />
       <workItem from="1650683898135" duration="321000" />
       <workItem from="1650698396647" duration="3784000" />
-      <workItem from="1650710420677" duration="4695000" />
+      <workItem from="1650710420677" duration="4974000" />
+      <workItem from="1650790011247" duration="16295000" />
+      <workItem from="1650873457480" duration="6095000" />
     </task>
     <task id="LOCAL-00001" summary="第一天第二次提交（将题目答案放在答案.md）">
       <created>1650292180340</created>
@@ -106,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650526063363</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第3天第一次提交（10-14题）">
+      <created>1650717293110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650717293110</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +144,7 @@
     <MESSAGE value="第一天第二次提交（将题目答案放在答案.md）" />
     <MESSAGE value="第二天第一次提交（4、5、6题）" />
     <MESSAGE value="第3天第一次提交（7、8、9题）" />
-    <option name="LAST_COMMIT_MESSAGE" value="第3天第一次提交（7、8、9题）" />
+    <MESSAGE value="第3天第一次提交（10-14题）" />
+    <option name="LAST_COMMIT_MESSAGE" value="第3天第一次提交（10-14题）" />
   </component>
 </project>
