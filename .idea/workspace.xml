@@ -11,10 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第4天第一次提交（15-20题）">
+    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第5天第一次提交（20-29题题）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/答案.md" beforeDir="false" afterPath="$PROJECT_DIR$/答案.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,8 @@
       <workItem from="1650710420677" duration="4974000" />
       <workItem from="1650790011247" duration="16295000" />
       <workItem from="1650873457480" duration="6251000" />
-      <workItem from="1650970313984" duration="7658000" />
+      <workItem from="1650970313984" duration="7743000" />
+      <workItem from="1651030894721" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="第一天第二次提交（将题目答案放在答案.md）">
       <created>1650292180340</created>
@@ -126,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650884497314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第5天第一次提交（20-29题题）">
+      <created>1650978083832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650978083832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +157,7 @@
     <MESSAGE value="第3天第一次提交（7、8、9题）" />
     <MESSAGE value="第3天第一次提交（10-14题）" />
     <MESSAGE value="第3天第一次提交（15-20题）" />
-    <option name="LAST_COMMIT_MESSAGE" value="第3天第一次提交（15-20题）" />
+    <MESSAGE value="第5天第一次提交（20-29题题）" />
+    <option name="LAST_COMMIT_MESSAGE" value="第5天第一次提交（20-29题题）" />
   </component>
 </project>
