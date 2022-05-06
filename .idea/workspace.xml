@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第6天第2次提交（31-34题）">
+    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第6天第2次提交（35-40题）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/31-60.md" beforeDir="false" afterPath="$PROJECT_DIR$/31-60.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
@@ -102,7 +102,8 @@
       <workItem from="1651220221259" duration="714000" />
       <workItem from="1651231906912" duration="3871000" />
       <workItem from="1651236234201" duration="1163000" />
-      <workItem from="1651648477916" duration="8997000" />
+      <workItem from="1651648477916" duration="9413000" />
+      <workItem from="1651734650814" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="第一天第二次提交（将题目答案放在答案.md）">
       <created>1650292180340</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651062394893</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="第6天第2次提交（35-40题）">
+      <created>1651659033382</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651659033382</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
     <MESSAGE value="第5天第一次提交（20-29题题）" />
     <MESSAGE value="第6天第一次提交（30题）" />
     <MESSAGE value="第6天第2次提交（31-34题）" />
-    <option name="LAST_COMMIT_MESSAGE" value="第6天第2次提交（31-34题）" />
+    <MESSAGE value="第6天第2次提交（35-40题）" />
+    <option name="LAST_COMMIT_MESSAGE" value="第6天第2次提交（35-40题）" />
   </component>
 </project>
