@@ -7,25 +7,38 @@
 
 using namespace std;
 
-
 class Solution {
 public:
-    void rotate(vector<vector<int>> &matrix) {
-        if (matrix.size() == 1) return;
-        int n = matrix.size(), s = n % 2;
-        int temp;
-        for (int i = 0; i < s; ++i) {
-            for (int j = 0; j < n - 1 - 2 * i; ++j) {
-                temp = matrix[i][i+j];
-                matrix[i][i+j] = matrix[n-1-i-j][i];
-                matrix[n-1-i-j][i] = matrix[n-1-i][n-1-i-j];
-                matrix[n-1-i][n-1-i-j] = matrix[i+j][n-1-i];
-                matrix[i+j][n-1-i] = temp;
+    void dfs(int i, int n, vector<bool> &visited,vector<bool> &left ,vector<bool> &right,vector<int> &queen, int &results) {
+        if (i == n) {
+            results+=1;
+            return;
+        }
+        for (int j = 0; j < n; ++j) {
+            if (!visited[j] &&!right[i+j] &&!left[n-i+j-1]) {
+                visited[j] = true;
+                right[i+j] = true;
+                left[n-i+j-1] = true;
+                queen[i] = j;
+                dfs(i+1, n, visited,left,right, queen, results);
+                visited[j] = false;
+                right[i+j] = false;
+                left[n-i+j-1] = false;
+                queen[i] = -1;
             }
         }
+    }
+
+    int totalNQueens(int n) {
+        vector<bool> visited(n, false);
+        vector<bool> left(2 * n - 1, false);
+        vector<bool> right(2 * n - 1, false);
+        vector<int> queen(n, -1);
+        int results = 0;
+        dfs(0, n, visited,left,right, queen, results);
+        return results;
     }
 };
 
 int main() {
-
 }
