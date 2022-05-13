@@ -1,38 +1,25 @@
 #include "iostream"
 #include "vector"
 #include <regex>
+#include "deque"
 
 using namespace std;
 
 class Solution {
 public:
-    string addBinary(string a, string b) {
-        string result = "";
-        int flag = 0;
-        int i = a.size() - 1;
-        int j = b.size() - 1;
+    int climbStairs(int n) {
+        if (n == 1) return 1;
+        if (n == 2) return n;
+        int temp1 = 1, temp2 = 2;
         int temp;
-        while (i >= 0 && j >= 0) {
-            temp = a[i] + a[j] - '0' - '0' + flag;
-            flag = temp / 2;
-            result.insert(result.begin(), 1, temp % 2 + '0');
-            i--;
-            j--;
+        int i = 3;
+        while (i <= n) {
+            temp = temp2 + temp1;
+            temp1 = temp2;
+            temp2 = temp;
+            i++;
         }
-        while (i >= 0) {
-            temp = a[i]  - '0' + flag;
-            flag = temp / 2;
-            result.insert(result.begin(), 1, temp % 2 + '0');
-            i--;
-        }
-        while (j >= 0) {
-            temp = a[j]  - '0' + flag;
-            flag = temp / 2;
-            result.insert(result.begin(), 1, temp % 2 + '0');
-            j--;
-        }
-        if(flag==1) result.insert(result.begin(), 1, '1');
-        return result;
+        return temp;
     }
 };
 
