@@ -11,14 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第13天第1次提交（71题）2022年7月14">
+    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第14天第1次提交（75题）2022年7月17">
+      <change afterPath="$PROJECT_DIR$/121-150.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91-120" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91-120.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/61-90.md" beforeDir="false" afterPath="$PROJECT_DIR$/61-90.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RunManager">
     <configuration name="leetcode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="leetcode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="leetcode">
@@ -124,7 +125,15 @@
       <workItem from="1653311695043" duration="878000" />
       <workItem from="1657804260114" duration="3189000" />
       <workItem from="1657960621433" duration="7266000" />
-      <workItem from="1658042302808" duration="1659000" />
+      <workItem from="1658042302808" duration="1925000" />
+      <workItem from="1658056553515" duration="1002000" />
+      <workItem from="1658127185615" duration="2364000" />
+      <workItem from="1658142853577" duration="8787000" />
+      <workItem from="1658412685752" duration="841000" />
+      <workItem from="1658413538613" duration="104000" />
+      <workItem from="1658837932200" duration="3045000" />
+      <workItem from="1659684104990" duration="145000" />
+      <workItem from="1659690356364" duration="9585000" />
     </task>
     <task id="LOCAL-00001" summary="第一天第二次提交（将题目答案放在答案.md）">
       <created>1650292180340</created>
@@ -245,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657806370178</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="第14天第1次提交（75题）2022年7月17">
+      <created>1658044818958</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658044818958</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +295,7 @@
     <MESSAGE value="第12天第1次提交（61-64题）" />
     <MESSAGE value="第12天第2次提交（65-67题）" />
     <MESSAGE value="第13天第1次提交（71题）2022年7月14" />
-    <option name="LAST_COMMIT_MESSAGE" value="第13天第1次提交（71题）2022年7月14" />
+    <MESSAGE value="第14天第1次提交（75题）2022年7月17" />
+    <option name="LAST_COMMIT_MESSAGE" value="第14天第1次提交（75题）2022年7月17" />
   </component>
 </project>
