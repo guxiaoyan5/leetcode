@@ -11,14 +11,10 @@ using namespace std;
 
 class Solution {
 public:
-    int removeDuplicates(vector<int> &nums) {
-        int flag, i, s;
-        for (int j = 0; j < nums.size(); ++j) {
+    bool search(vector<int>& nums, int target) {
 
-        }
     }
 };
-
 int main() {
 
 }

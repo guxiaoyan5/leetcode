@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第17天第1次提交2022年8月7号">
+    <list default="true" id="0e55cef7-7219-4e75-89e3-d03b0b501164" name="变更" comment="第17天第2次提交2022年8月7号">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/61-90.md" beforeDir="false" afterPath="$PROJECT_DIR$/61-90.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -133,7 +132,7 @@
       <workItem from="1659690356364" duration="9860000" />
       <workItem from="1659755090543" duration="3611000" />
       <workItem from="1659785787408" duration="5161000" />
-      <workItem from="1659837090890" duration="2764000" />
+      <workItem from="1659837090890" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="第一天第二次提交（将题目答案放在答案.md）">
       <created>1650292180340</created>
@@ -282,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659837653706</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="第17天第2次提交2022年8月7号">
+      <created>1659840254134</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659840254134</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +326,7 @@
     <MESSAGE value="第15天第1次提交2022年8月5号" />
     <MESSAGE value="第16天第1次提交2022年8月6号" />
     <MESSAGE value="第17天第1次提交2022年8月7号" />
-    <option name="LAST_COMMIT_MESSAGE" value="第17天第1次提交2022年8月7号" />
+    <MESSAGE value="第17天第2次提交2022年8月7号" />
+    <option name="LAST_COMMIT_MESSAGE" value="第17天第2次提交2022年8月7号" />
   </component>
 </project>
