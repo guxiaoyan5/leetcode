@@ -23,6 +23,31 @@ public:
 };
 ```
 
-
+# 第2086题
+```c++
+class Solution {
+public:
+    int minimumBuckets(string street) {
+        int n = street.size();
+        int ans = 0;
+        for (int i = 0; i < n; ++i) {
+            if (street[i] == 'H') {
+                if (i + 1 < n && street[i + 1] == '.') {
+                    ++ans;
+                    // 直接跳过后续的两个位置
+                    i += 2;
+                }
+                else if (i - 1 >= 0 && street[i - 1] == '.') {
+                    ++ans;
+                }
+                else {
+                    return -1;
+                }
+            }
+        }
+        return ans;
+    }
+};
+```
 
 
