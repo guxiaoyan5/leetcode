@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0cc3853-0d50-4236-aba0-a7400f6f33a2" name="变更" comment="使用go语言提交git">
-      <change afterPath="$PROJECT_DIR$/271-300.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+    <list default="true" id="f0cc3853-0d50-4236-aba0-a7400f6f33a2" name="变更" comment="2022年8月27日第一次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/121-150.md" beforeDir="false" afterPath="$PROJECT_DIR$/121-150.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91-120.md" beforeDir="false" afterPath="$PROJECT_DIR$/91-120.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/151-180.md" beforeDir="false" afterPath="$PROJECT_DIR$/151-180.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/211-240.md" beforeDir="false" afterPath="$PROJECT_DIR$/211-240.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build main.go">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode" />
@@ -89,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,7 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="使用go语言提交git" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用go语言提交git" />
+    <MESSAGE value="2022年8月27日第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年8月27日第一次提交" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

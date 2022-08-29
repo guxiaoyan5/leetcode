@@ -1,46 +1,26 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
+func Min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
-
-func max(a, b int) int {
+func Max(a, b int) int {
 	if a > b {
 		return a
 	}
 	return b
 }
-func widthOfBinaryTree(root *TreeNode) int {
-	queue := make(chan *TreeNode, 3000)
-	index := make(chan int, 3000)
-	queue <- root
-	index <- 1
-	s := 1
-	for len(queue) > 0 {
-		n := len(queue)
-		left := -1
-		right := -1
-		for i := 0; i < n; i++ {
-			temp := <-queue
-			j := <-index
-			if i == 0 {
-				left = j
-			}
-			if i == n-1 {
-				right = j
-			}
-			if temp.Left != nil {
-				queue <- temp.Left
-				index <- 2*j - 1
-			}
-			if temp.Right != nil {
-				queue <- temp.Right
-				index <- 2 * j
-			}
-		}
-		s = max(s, right-left+1)
-	}
-	return s
+func computeArea(ax1 int, ay1 int, ax2 int, ay2 int, bx1 int, by1 int, bx2 int, by2 int) int {
+	area1 := (ax2 - ax1) * (ay2 - ay1)
+	area2 := (bx2 - bx1) * (by2 - by1)
+	cx1 := Max(ax1, bx1)
+	cx2 := Min(ax2, bx2)
+	cy1 := Max(ay1, by1)
+	cy2 := Min(ay2, by2)
+	width := cx2 - cx1
+	height := cy2 - cy1
+	area3 := Max(width, 0) * Max(height, 0)
+	return area1 + area2 - area3
 }
