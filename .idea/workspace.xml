@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0cc3853-0d50-4236-aba0-a7400f6f33a2" name="变更" comment="2022年8月27日第一次提交">
+    <list default="true" id="f0cc3853-0d50-4236-aba0-a7400f6f33a2" name="变更" comment="2022年8月29日第一次提交">
+      <change afterPath="$PROJECT_DIR$/241-270.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/301-330.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/121-150.md" beforeDir="false" afterPath="$PROJECT_DIR$/121-150.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/151-180.md" beforeDir="false" afterPath="$PROJECT_DIR$/151-180.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/211-240.md" beforeDir="false" afterPath="$PROJECT_DIR$/211-240.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="使用go语言提交git" />
     <MESSAGE value="2022年8月27日第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022年8月27日第一次提交" />
+    <MESSAGE value="2022年8月29日第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年8月29日第一次提交" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
